@@ -1,6 +1,6 @@
-,MCQ,Choices,Correct
-0,What is the course code for Advanced AI?,a: AIM703 | b: AIM503 | c: AIM803 | d: AIM903,a
-1,What is the type of reasoning where conclusions may be invalidated by adding more information to the knowledge base?,a: Deductive Reasoning | b: Inductive Reasoning | c: Non-monotonic Reasoning | d: Monotonic Reasoning,c
-2,What is a proposition in Propositional Logic?,a: A declarative statement which is either true or false | b: An expression consisting of variables with a specified domain | c: A form of logical reasoning | d: None of the above,a
-3,What is the purpose of using Propositional Logic?,"a: To analyze a statement, individually or compositely | b: To arrive at a conclusion using a limited set of facts | c: To deduce new information from logically related known information | d: To make presumptions about events that occur every day",a
-4,What is the disadvantage of Monotonic Reasoning?,a: Old facts may be invalidated by adding new sentences | b: Cannot be used for theorem proving | c: New knowledge from the real world cannot be added | d: All of the above,d
+MCQ,Choices,Correct
+Which large language models were evaluated in the study for fairness and bias?,"a: Meta, Mistral, NousResearch, and Qwen | b: Google, IBM, Amazon, and Microsoft | c: OpenAI, DeepMind, Facebook AI, and Apple AI | d: None of the above",a
+Which benchmark datasets were used in the study?,a: IMDB and Yelp | b: Twitter and Facebook | c: CivilComments and COMPAS | d: None of the above,c
+Which model consistently demonstrated higher fairness compared to others?,a: Hermes | b: Llama | c: Mistral | d: Qwen,a
+What is the Demographic Parity metric used for?,a: To ensure that the likelihood of positive predictions is equal across different demographic groups | b: To evaluate whether true positive rates are consistent across demographic groups | c: To measure whether false positive rates are balanced across groups | d: None of the above,a
+What does a high value in the fairness metrics indicate?,a: High bias | b: Low bias | c: No bias | d: None of the above,a
