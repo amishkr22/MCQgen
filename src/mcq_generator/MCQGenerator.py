@@ -17,7 +17,7 @@ from langchain.chains import SequentialChain
 load_dotenv()
 
 # Access the environment variables just like you would with os.environ
-key=os.getenv("OPENAI_API_KEY")
+key='your_openai_key'
 
 
 llm = ChatOpenAI(openai_api_key=key,model_name="gpt-3.5-turbo", temperature=0.7)
@@ -39,7 +39,7 @@ quiz_generation_prompt = PromptTemplate(
     template=template)
 
 
-quiz_chain=LLMChain(llm=llm,prompts=quiz_generation_prompt,output_key="quiz",verbose=True)
+quiz_chain=LLMChain(llm=llm,prompt=quiz_generation_prompt,output_key="quiz",verbose=True)
 
 
 template2="""
