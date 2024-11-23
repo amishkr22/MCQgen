@@ -9,7 +9,7 @@ from langchain_community.callbacks.manager import get_openai_callback
 from src.mcq_generator.MCQGenerator import generate_evaluate_chain
 from src.mcq_generator.logger import logging
 
-with open('C:\VILLGAX\CODES\GEN AI\MCQgen\Response.json','r') as file:
+with open('Response.json','r') as file:
     RESPONSE_JSON = json.load(file)
 
 st.title("MCQs Creator Application with LangChain 🦜⛓️")
